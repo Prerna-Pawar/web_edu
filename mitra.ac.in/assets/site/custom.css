@@ -1,0 +1,430 @@
+.lab-section h3 {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.lab-section img {
+    max-width: 100%;
+}
+
+.lab-section h4 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.lab-section ul {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.crsection h3 {
+    padding-bottom: 5px;
+    padding-top: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.guide {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.gallerybox img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallerybox {
+    position: relative;
+    border: 3px solid #ccc;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.glcaption {
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.glcaption h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 18px;
+}
+
+.gallerybox:hover .glcaption {
+    top: 0;
+    opacity: 1;
+}
+
+.hdept {
+    text-align: center;
+}
+
+.hdept h4 {
+    margin-top: 0px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.hdept h3 {
+    margin-bottom: 10px;
+}
+
+/*-----new1------*/
+
+.faculty-title {
+    border-bottom: 1px solid #FFD200;
+    color: #00539F;
+    margin-bottom: 10px;
+}
+
+.faculty-dtl p {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.crsection .faculty-dtl h3 {
+    padding-top: 0px;
+}
+
+.faculty-dtl p strong {
+    margin-right: 10px;
+}
+
+.testimonial {
+    padding: 20px 15px;
+    margin: 10px 15px 0;
+    border: 1px solid #fff;
+    text-align: center;
+    position: relative;
+    transition: all 0.7s ease 0s;
+    background: #f5f5f5;
+}
+
+.testimonial:hover {
+    border-color: #e7e3e3;
+}
+
+.testimonial .pic {
+    transition: all 0.7s ease 0s;
+}
+
+.testimonial .pic img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00539F;
+    text-transform: uppercase;
+    margin: 0 0 3px 0;
+}
+
+.testimonial h4 {
+    color: #eabd44;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.testimonial .descinfo {
+    font-size: 15px;
+    color: #999;
+    line-height: 25px;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+.testimonial .btn {
+    border: 1px solid #00539F;
+}
+
+.owl-theme .owl-controls {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    width: 45px;
+    height: 40px;
+    line-height: 37px;
+    border-radius: 3px !important;
+    background: #fff !important;
+    border: 1px solid #eabd44;
+    padding: 0 !important;
+    opacity: 1 !important;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+    background: #eabd44 !important;
+    border-color: #eabd44 !important;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    left: -3%;
+}
+
+.owl-next {
+    left: auto;
+    right: -3%;
+}
+
+.owl-prev:before,
+.owl-next:before {
+    content: "\f104";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    font-size: 25px;
+    color: #00539F;
+}
+
+.owl-next:before {
+    content: "\f105";
+}
+
+@media only screen and (max-width: 990px) {
+    .owl-theme .owl-controls,
+    .owl-prev,
+    .owl-next {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonial .testimonial-content {
+        padding: 15px 10px 12px;
+    }
+    .testimonial .rating {
+        right: 12px;
+    }
+}
+
+/*footer*/
+
+.footer-fixed-bar {
+    background: rgba(0, 0, 0, .95);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+    padding: 10px 0 2px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.footer-fixed-bar span {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f7b400;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-fixed-bar a {
+    color: #fff;
+}
+
+.ovmap {
+    background: url('images/about/OJO4YQ0.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-fixed-bar {
+    background: rgba(0, 0, 0, .95);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+    padding: 10px 0 2px;
+    padding-bottom: 1px;
+    display: block;
+}
+
+.footer-fixed-bar span {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f7b400;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-fixed-bar a {
+    color: #fff;
+}
+
+h3.footer-title {
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: #f7b400;
+}
+
+h3.sub-title {
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: #00539f;
+}
+
+/*about founder*/
+
+.quoteone {
+    background: url(images/about/pr1.jpg);
+    padding: 100px 0px 80px;
+}
+
+.quotetwo {
+    background: url(images/about/pr2.jpg);
+    padding: 150px 0px;
+}
+
+.quotethree {
+    background: url(images/about/pr3.jpg);
+    padding: 150px 0px;
+}
+
+.quotefour {
+    background: url(images/about/pr4.jpg);
+    padding: 150px 0px;
+}
+
+.prxsection {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.prxsection h2 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.prxsection h4 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.course-box img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width:767px) {
+    .prxsection {
+        background-attachment: scroll;
+    }
+}
+
+/*By MD. Aabid - ThinkCode*/
+
+img.recruiters {
+    max-width: 200px;
+}
+
+img.admissions {
+    max-width: 100%;
+}
+
+.imagebox {
+    position: relative;
+    border: 1px solid #00539f;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.imagebox img {
+    max-width: 100%;
+    min-height: 310px;
+    object-fit: cover;
+}
+
+.white {
+    color: #fff !important;
+}
+
+a.notice-link {
+    color: #230000;
+}
+
+.href-title {
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: #00539f !important;
+    font-weight: 900;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #c5c1c1;
+}
+
+/* Shine */
+
+figure {
+    position: relative;
+}
+
+figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+figure:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+.faculty-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 6px 5px;
+    border: solid 1px #9B9B9B;
+}
+
+/* End CSS Shine */
+
+.imagebox.dp {
+    height: 400px;
+}

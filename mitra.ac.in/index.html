@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <link rel="icon" href="https://mitra.ac.in/uploads/favicon.ico" type="image/x-icon" />
+    <title>Prof. Ram Meghe Institute of Technology and Research, Badnera - Amarvati</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Loading third party fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://mitra.ac.in/assets/site/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://mitra.ac.in/assets/site/fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+    <!-- Loading main css file -->
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/style.css">
+    <!--- menu --->
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/menu/css/style.css">
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/menu/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/custom.css">
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/gallery/css/glightbox.css">
+    <link rel="stylesheet" href="https://mitra.ac.in/assets/site/gallery/css/style.css">
+
+    <!-- JS -->
+    <!--contact tab-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--contact tab-->
+    <script src="https://mitra.ac.in/assets/site/menu/js/vendor/modernizr.min.js"></script>
+    <script>
+        window.Modernizr || document.write('<script src="https://mitra.ac.in/assets/site/menu/js/vendor/modernizr-2.8.3.min.js"><\/script>')
+    </script>
+    <!--- /menu --->
+
+    <style>
+        /*Two Button 2021-09-24: MD. Aabid*/
+
+        .footer-fixed-bar {
+            background: rgba(0, 0, 0, .95);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 90;
+            padding: 10px 0 2px;
+            padding-bottom: 10px;
+            display: block;
+        }
+
+        .footer-fixed-bar span {
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 700;
+            color: #f7b400;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .footer-fixed-bar a {
+            color: #fff;
+        }
+
+        .sidepanel {
+            font-size: 18px;
+            text-decoration: none;
+            width: 0;
+            position: fixed;
+            height: 200px;
+            top: 265px;
+            left: 0;
+            bottom: 0;
+            z-index: 100;
+            background: rgba(0, 83, 159, 0.9);
+            color: #f7b400;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 0;
+        }
+
+        .sidepanel a {
+            padding: 8px 8px 8px 32px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #f7b400;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidepanel a:hover {
+            color: #ffffff;
+        }
+
+        .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+        }
+
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background: rgba(0, 83, 159, 0.9);
+            color: #f7b400;
+            padding: 5px 10px;
+            border: none;
+            position: fixed;
+            bottom: 48px;
+        }
+
+        .openbtn:hover {
+            background: rgba(0, 83, 159, 0.9);
+            color: #ffffff;
+        }
+
+        .sidepanel1 {
+            font-size: 18px;
+            text-decoration: none;
+            width: 0;
+            position: fixed;
+            height: 200px;
+            top: 265px;
+            left: 0;
+            bottom: 0;
+            z-index: 100;
+            background: rgba(0, 83, 159, 0.9);
+            color: #f7b400;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 0;
+            float: right;
+        }
+
+        .sidepanel1 a {
+            padding: 8px 8px 8px 32px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #f7b400;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidepanel1 a:hover {
+            color: #ffffff;
+        }
+
+        .sidepanel1 .closebtn1 {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+        }
+
+        .openbtn1 {
+            float: right;
+            font-size: 20px;
+            cursor: pointer;
+            background: rgba(0, 83, 159, 0.9);
+            color: #f7b400;
+            padding: 5px 10px;
+            border: none;
+            position: fixed;
+            bottom: 90px;
+        }
+
+        .openbtn1:hover {
+            background: rgba(0, 83, 159, 0.9);
+            color: #ffffff;
+        }
+
+        .placement-logo {
+            max-width: 170px;
+            "
+
+        }
+
+        /* Pop up */
+
+        .pop-up {
+            position: fixed;
+            margin: 5% auto;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        .box11 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+            position: relative;
+            -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
+        $(function() {
+            $('.pop-up').hide();
+            $('.pop-up').fadeIn(3000);
+
+            $('.pop-up').fadeOut(5000);
+            $('#overlay').removeClass('blur-in');
+            $('#overlay').addClass('blur-out');
+            e.stopPropagation();
+
+
+        });
+    </script>
+
+</head>
+
+
+<!-- <body>
+    <div class="row pop-up">
+  <div class="box11 small-6 large-centered">
+    <a href="#" class="close-button">&#10006;</a>
+    
+    <img src="http://mitra.ac.in/uploads/main-media-image/AUTONOMOUS.jpg" width="20%" height="10%" />
+    
+  </div>
+</div>
+--->
+<div id="site-content">
+    <header class="site-header">
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <a href="https://mitra.ac.in/" id="branding">
+                  <img src="https://mitra.ac.in/assets/site/images/logo.png" alt="MITRA" class="logo">
+                </a>
+                        <!-- #branding -->
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="maintext right-section">
+                            <div class="vidarbhatext" style="text-align:center;">
+                                <p style="margin-bottom: 0px;">Vidarbha Youth Welfare Society's</p>
+                                <h3>Prof. Ram Meghe Institute of Technology and Research<br> Badnera - Amravati 444701(MS)</h3>
+                                <p>(Formerly College of Engineering, Badnera) - Estd. 1983</p>
+                                <p style="color:red">
+                                    <font size="5"><strong> An Autonomous Institute</strong></font>
+                                </p>
+                                <p>(Affiliated to Sant Gadge Baba Amravati University)</p>
+                                <!--<p><span>Accredited by NAAC with 'A' Grade</span>
+                  <span>Status of 'A' Grade Institute by Govt. of Maharashtra</span> <span>Accredited by NBA</span></p>-->
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-1 naaclogo">
+                        <div class="pull-right naaclogo">
+                            <img src="https://mitra.ac.in/assets/site/dummy/naac.png" alt="">
+                            <p style="color:red"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA 3.43</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .top-header -->
+
+
+        <div class="bottom-header">
+            <div class="container">
+                <div class="menu">
+                    <ul>
+                        <li><a href="https://mitra.ac.in/">Home</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li><a href="#">About Us</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar </a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">Admissions</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Departments</a>
+                            <ul>
+                                <li><a href="https://mitra.ac.in/civil">Civil</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/civil/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/events">Event & Activites</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/faculty">Faculty</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/courses">Programmes</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/laboratories">Laboratories</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/consultancy-research">Consultancy & Research</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/photo-gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/civil/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://mitra.ac.in/mechanical">Mechanical</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/mechanical/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/mechanical/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mechanical/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="https://mitra.ac.in/computer-Science">Computer Science &amp; Engineering</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/computer-Science/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/computer-Science/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/computer-Science/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="https://mitra.ac.in/information-Technology">Information Technology</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/information-Technology/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/information-Technology/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/information-Technology/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="https://mitra.ac.in/electronics-Telecomm">Electronics & Telecomm</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/electronics-Telecomm/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>AI & Data Science</a>
+                                    <ul>
+                                        <li><a href="#">Academic Excellence</a></li>
+                                        <li><a href="#">Event & Activites</a></li>
+
+                                        <li><a href="#">Faculty</a></li>
+
+                                        <li><a href="#">Programmes</a></li>
+
+                                        <li><a href="#">Laboratories</a></li>
+
+                                        <li><a href="#">Consultancy & Research</a></li>
+
+                                        <li><a href="#">Photo Gallery</a></li>
+
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a>Industrial Internet of Things</a>
+                                    <ul>
+                                        <li><a href="#">Academic Excellence</a></li>
+                                        <li><a href="#">Event & Activites</a></li>
+
+                                        <li><a href="#">Faculty</a></li>
+
+                                        <li><a href="#">Programmes</a></li>
+
+                                        <li><a href="#">Laboratories</a></li>
+
+                                        <li><a href="#">Consultancy & Research</a></li>
+
+                                        <li><a href="#">Photo Gallery</a></li>
+
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://mitra.ac.in/mca">Master in Computer Application</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/mca/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/mca/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mca/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="https://mitra.ac.in/mba">Master of Business Administration</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/mba/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/mba/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/mba/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li><a href="https://mitra.ac.in/first-Year">First Year Engineering</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/first-Year/academic-excellence">Academic Excellence</a></li>
+                                        <li><a href="https://mitra.ac.in/first-Year/events">Event & Activites</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/faculty">Faculty</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/courses">Programmes</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/laboratories">Laboratories</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/consultancy-research">Consultancy & Research</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/photo-gallery">Photo Gallery</a></li>
+
+                                        <li><a href="https://mitra.ac.in/first-Year/contact-us">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li><a href="https://mitra.ac.in/site/training-placement">Training & Placement</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="https://mitra.ac.in/site/library">Library</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissionxs/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!-- <li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Forum</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!-- <li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">NAAC</a>
+                            <ul>
+                                <li><a href="#">AQAR_AY2017-18</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/view-page/naac-aqar-ay2017-18_16">AQAR_AY2017-18</a> </li>
+                                    </ul>
+
+                                    <li><a href="#">AQAR_AY2018-19</a>
+                                        <ul>
+                                            <li><a href="https://mitra.ac.in/site/view-page/naac-aqar-ay2018-19_17">AQAR_AY2018-19</a> </li>
+                                        </ul>
+                                        <li><a href="#">AQAR_AY2019-20</a>
+                                            <ul>
+                                                <li><a href="https://mitra.ac.in/site/view-page/naac-aqar-ay-2019-20_18">AQAR_AY2019-20</a></li>
+                                            </ul>
+                                            <li><a href="#">AQAR_AY2020-21</a>
+                                                <ul>
+                                                    <li><a href="https://mitra.ac.in/site/view-page/aqar-ay-2020-21_31">AQAR_AY2020-21</a></li>
+
+                                                </ul>
+                                                <li><a href="#">AQAR_AY2021-22</a>
+                                                    <ul>
+                                                        <li><a href="https://mitra.ac.in/site/view-page/minutes-of-meeting_32">MINUTES OF MEETING</a> </li>
+                                                    </ul>
+                                                    <li><a href="#">Self Study Report (Cycle-II)</a>
+                                                        <ul>
+                                                            <li><a href="https://mitra.ac.in/site/view-page/ssr_36">SSR</a> </li>
+                                                            <li><a href="	https://mitra.ac.in/site/view-page/dvv-clarification_86">DVV Clarification</a></li>
+                                                            <li><a href="https://mitra.ac.in/site/view-page/prequalified-ssr_93">PREQUALIFIED SSR</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </li>
+                                            </li>
+                                        </li>
+                                    </li>
+
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a target="_blank" href="https://www.google.co.in/maps/uv?hl=en&pb=!1s0x3bd6a54e170995cb%3A0xfed5bd6314ba3973!3m1!7e115!4s%2Fmaps%2Fplace%2Fprof.ram%2Bmeghe%2Binstitute%2Bof%2Btechnology%2B%2526%2Bresearch%2Bamravati%2C%2Bmaharashtra%2F%4020.854665%2C77.7522172%2C3a%2C75y%2C46.85h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s6SrxWbvO2B4AAAQvxXaWww*212e0*214m2*213m1*211s0x3bd6a54e170995cb%3A0xfed5bd6314ba3973!15sCgIgAQ&imagekey=!1e2!2sdb4DbVJQ5ikAAAQvxXckZw&sa=X&ved=0ahUKEwjVlrjXxLXVAhXJpo8KHb1cARsQoB8I5gQwZA&activetab=panorama">Virtual Tour</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li><a href="https://mitra.ac.in/site/contact-us">Contact Us</a>
+                            <ul>
+                                <li><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/site/our-mentors">Our Mentors</a></li>
+                                        <li><a href="https://mitra.ac.in/site/executive-members">Executive Members</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about">About Institute</a></li>
+                                        <li><a href="https://mitra.ac.in/site/chairmans-message">Chairman’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/principals-message">Principal’s Message</a></li>
+                                        <li><a href="https://mitra.ac.in/site/about#administrative-structure">Administrative Structure</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Admissions</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/be">B.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/me">M.Tech ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/phd">Ph.D ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mca">MCA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/mba">MBA ADMISSION</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a></li>
+                                        <li><a href="https://mitra.ac.in/admissions/academic">Academic Calendar </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Forum</a>
+                                    <ul>
+                                        <li><a href="https://mitra.ac.in/forum/ieee">IEEE</a></li>
+                                        <li><a href="https://mitra.ac.in/forum/csi">CSI</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/ie">IE</a></li>-->
+                                        <li><a href="https://mitra.ac.in/forum/iete">IETE</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/mesa_95">MESA</a></li>
+                                        <li><a href="https://mitra.ac.in/site/view-page/cesa_96">CESA</a></li>
+                                        <!--<li><a href="https://mitra.ac.in/forum/mitra-student-club">MITRA Student Club</a></li>-->
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+
+                                        <li><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></li>
+                                        <li><a href="https://mitra.ac.in/site/video-gallery">Video Gallery</a></li>
+
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- .menu -->
+                </div>
+                <!-- .main-navigation -->
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+                <script>
+                    window.jQuery || document.write('<script src="https://mitra.ac.in/assets/site/menu/js/vendor/jquery-1.12.0.min.js"><\/script>')
+                </script>
+                <script src="https://mitra.ac.in/assets/site/menu/js/megamenu.js"></script>
+            </div>
+        </div>
+
+    </header>
+    <!-- .site-header -->
+
+
+
+    <!-- Front -->
+
+    <!-- .video -->
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+  <source src="https://mitra.ac.in/assets/site/video/04_x264_001.mp4" type="video/mp4">
+</video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <!--<div class="content">
+  <h1>Vidarbha Youth Welfare Society's</h1>
+  <p>Prof. Ram Meghe Institute of Technology and Research, Badnera - Amravati 444701 (MS)</p>
+  <p>(Formerly College of Engineering, Badnera)</p>
+  <button id="myBtn" onClick="myFunction()">Pause</button>
+</div>-->
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+
+        // Get the button
+        var btn = document.getElementById("myBtn");
+
+        // Pause and play the video, and change the button text
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+    <!-- /.video -->
+
+    <main class="main-content">
+        <div class="fullwidth-block greet-section">
+            <div class="container">
+                <h2 class="section-title">ABOUT INSTITUTE</h2>
+                <!-- <small class="section-subtitle">ABOUT INSTITUTE</small> -->
+                <p id="expand-text" class="text text-justify" style="height:200px;overflow: hidden;">The Vidarbha Youth Welfare Society’s Prof. Ram Meghe Institute of Technology & Research, Badnera-Amravati (Formerly well known as College of Engineering Badnera), is leading technological institute from central India. Established in the
+                    year 1983, the institute has a prestigious standing amongst the topmost Technical Institutes of Maharashtra. The Institute is approved by AICTE, New Delhi, Accredited by National Assessment and Accreditation Council (NAAC), Bangalore
+                    with Grade ‘A+’ & some of it’s UG Programmes are Accredited thrice by the National Board of Accreditation (NBA), New Delhi. The Institute is recognized by Directorate of Technical Education (DTE Mumbai), Govt. of Maharashtra and affiliated
+                    to Sant Gadge Baba Amravati University, Amravati and is offering UG, PG and Ph.D courses in Mechanical Engineering, Computer Science and Engineering, Information Technology, Electronics and Telecommunication Engineering and Civil Engineering
+                    along with PG courses like MBA and MCA.<br> <br> “Vidarbha Youth Welfare Society” was conceived to be the fountainhead of education for a rural area in the year 1965. The young, dynamics & forward-looking management of PRMIT&R is carrying
+                    forward the pioneering legacy of the visionary founders, who dare to dream and strived hard to achieve their seemingly impossible goals. The management team is comprised of highly qualified people and stalwarts from medical, academic,
+                    legal and business fraternity. Their varied skills-sets help them in coming up with vagaries of the technical education field.<br> <br> The team of the highly qualified and experienced academicians strives to achieve this credo under
+                    the proficient guidance of the Principal of the Institution. The team has an indomitable spirit to nurture and educate potential professionals and bring laurels to the institute. <br> <br> The Institute is providing an excellent Educational
+                    environment, infrastructure, amenities with value oriented teaching; undoubtedly every student is molded well enough to face challenges of the modern world with right attitude. This makes PRMIT&R the most preferred institute of Central
+                    India.
+                </p><a href="#" class="act">More</a>
+
+
+                <div class="row" style="padding-top: 20px;">
+                    <div class="col-md-4">
+                        <div class="boxed-feature vision">
+                            <h3 class="feature-title">Vision</h3>
+                            <p class="text text-justify">To become a pace-setting Centre of excellence believing in three Universal values namely Synergy, Trust and Passion, with zeal to serve the Nation in the global scenario.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="boxed-feature vision">
+                            <h3 class="feature-title">Mission</h3>
+                            <p class="text text-justify">
+                                <ul>
+                                    <li><b>M1 :</b> To achieve the highest standard in technical education through the state-of-the-art pedagogy and enhanced industry Institute linkages.</li>
+                                </ul>
+                                <ul>
+                                    <li><b>
+M2 :</b> To inculcate the culture of research in core and emerging areas.</li>
+                                </ul>
+                                <ul>
+                                    <li><b>M3 :</b> To strive for overall development of students so as to nurture ingenious technocrats as well as responsible citizens.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="boxed-feature vision">
+                            <h3 class="feature-title">Objectives</h3>
+
+                            <div class="textwidget">
+                                <marquee class="ntboard" direction="up" scrolldelay="150" height="200px" onmouseover="this.stop();" onmouseout="this.start();">
+                                    <ul class="text text-justify">
+                                        <li>To strive for global recognition through academic excellence in Engineering & Technology</li>
+                                        </br>
+                                        <li>To seek academic autonomy in view of establishment of centre of excellence</li>
+                                        </br>
+                                        <li>To facilitate industrial & basic research in various fields of Engineering & Technology</li>
+                                        </br>
+                                        <li>To facilitate industrial & basic research in various fields of Engineering & Technology</li>
+                                        </br>
+                                        <li>To impart contemporary and state of the art knowledge to the students</li>
+                                        </br>
+                                        <li>To make students industry ready by way of rigorous interaction with industry</li>
+                                        </br>
+                                        <li>To enhance the percentage of placement</li>
+                                        </br>
+                                        <li>To promote students for innovation and entrepreneurship</li>
+                                    </ul>
+                                </marquee>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!---->
+                    <div class="col-md-12">
+                        <div class="boxed-feature">
+                            <h3 class="feature-title">OUR QUALITY POLICY</h3>
+                            <p class="text text-center">"Striving for Excellence in the Quality Engineering Education"</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .fullwidth-block -->
+
+        <div class="fullwidth-block plsection" data-bg-color="#230000">
+            <div class="ovmap">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="boxed-feature mission" style="padding-bottom: 33px;">
+                                <h3 class="feature-title">Notice Board</h3>
+                                <div>
+                                    <marquee direction="up" scrolldelay="150" height="300px" onmouseover="this.stop();" onmouseout="this.start();">
+                                        <ul>
+
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/uploads/main-media-pdf/MSIE_exam_form.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">MSIE EXAM FORM</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="http://prmitr.mastersofterp.in/" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">ERP Login</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="http://mitra.ac.in/admissions/phd" class="notice-link" target="">
+                                                    <p class="text text-justify">Ph.D Admissions 2022-23</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="http://mitra.ac.in/uploads/main-media-pdf/7.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">Three Programs / Courses (Mechanical, Electronics &amp; Telecom. and Civil Engineering) of PRMIT&amp;R has been accredited by NBA till 30-June-2022</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="http://mitra.ac.in/site/view-page/higher-class-admission-2022-2023_26" class="notice-link" target="">
+                                                    <p class="text text-justify">Links and Notice for Admission to Higher Classes</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://www.onlinesbi.com/sbicollect/icollecthome.htm" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">Know &amp; Pay your College Fees &amp; Other Fees Online</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/uploads/dept-pdf/ARIIA_Report_2021-C-43072.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">ARIIA 2021</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://www.aicte-india.org/feedback/index.php" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">Feedback of Student and Faculty at AICTE</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/old/wp-content/uploads/2017/08/Notice-Crubbing-Ragging.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">PUBLIC NOTICE ON MENACE OF RAGGING</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="http://mitra.ac.in/uploads/main-media-pdf/Full_Report_IR-2023_Prof__Ram_Meghe_Institute_of_Technology___Research.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">NIRF</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/naac-self-study-report/" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">NAAC Self Study Report &amp; IQAC-AQAR</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://accounts.google.com/AddSession?hd=mitra.ac.in&amp;sacu=1#identifier" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">Webmail Login</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/site/alumni" class="notice-link" target="">
+                                                    <p class="text text-justify">Institute Alumni Council</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/admissions/academic" class="notice-link" target="">
+                                                    <p class="text text-justify">Academic Calendar</p>
+                                                </a>
+                                            </li>
+                                            </br>
+                                            <li>
+                                                <a style="color:#230000;font-size:14px;" href="https://mitra.ac.in/old/wp-content/uploads/2020/05/Anti_Ragging_Committee_2020.pdf" class="notice-link" target="_blank">
+                                                    <p class="text text-justify">Prevention and Prohibition of Ragging</p>
+                                                </a>
+                                            </li>
+                                            </br>
+
+
+                                            <!--<li><a href="https://mitra.ac.in/site/view-page/three-programs-courses-mechanical-electronics-telecom-and-civil-engineering-of-prmitr-has-b_12" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">Three Programs / Courses (Mechanical, Electronics &amp; Telecom. and Civil Engineering) of PRMIT&amp;R has been accredited by NBA till 30-June-2021</a> </li>
+
+<li><a href="https://mitra.ac.in/site/view-page/higher-classes-admission_13" class="notice-link" style=" font-size:14px; line-height:20px;">Links and Notice for Admission to Higher Classes</a> </li>
+
+<li><a target="_blank" href="https://mitra.ac.in/old/wp-content/uploads/2021/08/Time-Table-1-S2021-backlog.pdf" class="notice-link" style=" font-size:14px; line-height:20px;">I Sem &amp; II Sem SGBAU Backlog Exam</a> </li> 
+
+<li><a href="https://mitra.ac.in/old/wp-content/uploads/2019/11/ARI-C-43072-ARIIA-Ranking-2019-1.pdf" class="notice-link" style=" font-size:14px; line-height:20px;">ARIIA 2020</a> </li> 
+
+<li><a href="https://www.aicte-india.org/feedback/index.php" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">Feedback of Student and Faculty at AICTE  </a></li> 
+
+<li><a href="https://mitra.ac.in/old/wp-content/uploads/2017/08/Notice-Crubbing-Ragging.pdf" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">PUBLIC NOTICE ON MENACE OF RAGGING </a></li> 
+
+<li><a href="https://mitra.ac.in/a-grade-awarded-by-naac-with-cgpa-3-12-for-5-years-w-e-f-may-2017/" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">'A' Grade awarded by NAAC  for 5 years w.e.f May 2017 </a></li> 
+
+<li><a href="https://mitra.ac.in/old/wp-content/uploads/2021/02/Prof._Ram_Meghe_Institute_of_Technology___Research20210224-___24_Feb_2021.pdf" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">NIRF </a></li> 
+
+<li><a href="https://mitra.ac.in/naac-self-study-report/" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">NAAC Self Study Report &amp; IQAC-AQAR </a></li> 
+
+
+<li><a href="https://mitra.ac.in/site/online-payment" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">Know &amp; Pay your College Fees &amp; Other Fees Online
+ </a></li> 
+
+<li><a href="https://accounts.google.com/AddSession?hd=mitra.ac.in&amp;sacu=1#identifier" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">Webmail Login</a></li>
+
+<li><a href="https://mitra.ac.in/site/alumni" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;"> Institute Alumni Council</a></b>&nbsp;</li> 
+
+<li><a href="http://mitra.ac.in/uploads/main-media-pdf/Academic_Calendar_AY_21-22_(II).pdf" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;"> Academic Calendar AY: 2019-20 </a></li> 
+
+<li><a href="https://mitra.ac.in/old/wp-content/uploads/2020/05/Anti_Ragging_Committee_2020.pdf" target="_blank" class="notice-link" style=" font-size:14px; line-height:20px;">Prevention and Prohibition of Ragging</a></li> -->
+
+                                        </ul>
+                                        <!-- <ul>
+                <li><a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To strive for global recognition through academic excellence in Engineering & Technology</a></li>
+                <li>
+                <a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To seek academic autonomy in view of establishment of centre of excellence</a></li>
+                <li>
+                <a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To facilitate industrial & basic research in various fields of Engineering & Technology</a></li>
+                <li>
+                <a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To impart contemporary and state of the art knowledge to the students</a></li>
+                <li>
+                <a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To make students industry ready by way of rigorous interaction with industry</a></li> 
+                <li>
+                <a href="#" class="notice-link" style=" font-size:14px; line-height:20px;">To enhance the percentage of placement</a></li>
+                <li>
+                <a href="#" class="notice-link" style="font-size:14px; line-height:20px;">To promote students for innovation and entrepreneurship</a></li>
+                </ul>-->
+
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-4">
+                  <div class="boxed-feature mission">
+                <h3 class="feature-title">Important Links</h3>
+              <div class="textwidget"><ul>
+
+              <li ><b><a href="https://mitra.ac.in/three-programs-courses-mechanical-electronics-telecom-and-civil-engineering-of-prmitr-has-been-accredited-by-nba-till-30-june-2020/" target="_blank">Three Programs / Courses (Mechanical, Electronics & Telecom. and Civil Engineering) of PRMIT&R has been accredited by NBA till 30-June-2020
+              </a></b><img src="https://mitra.ac.in/wp-content/uploads/2016/10/new.gif"></li> </br>
+
+
+              <li ><b><a href="https://mitra.ac.in/wp-content/uploads/2019/11/ARI-C-43072-ARIIA-Ranking-2019-1.pdf">ARIIA 2020</a></b><img src="https://mitra.ac.in/wp-content/uploads/2016/10/new.gif"></li> </br>
+
+
+              <li ><b><a href="https://www.aicte-india.org/feedback/index.php" target="_blank">Feedback of Student and Faculty at AICTE  </a></b></li> </br>
+
+
+              <li ><b><a href="https://mitra.ac.in/wp-content/uploads/2017/08/Notice-Crubbing-Ragging.pdf" target="_blank">PUBLIC NOTICE ON MENACE OF RAGGING </a></b><img src="https://mitra.ac.in/wp-content/uploads/2016/10/new.gif"></li> </br>
+
+
+              <li ><a href="https://mitra.ac.in/a-grade-awarded-by-naac-with-cgpa-3-12-for-5-years-w-e-f-may-2017/" target="_blank">'A' Grade awarded by NAAC  for 5 years w.e.f May 2017 </a></li> </br>
+
+              <li ><a href="https://mitra.ac.in/wp-content/uploads/2020/01/Prof.-Ram-Meghe-Institute-of-Technology-Research20200106-.pdf" target="_blank">NIRF </a></li> </br>
+
+              <li ><a href="https://mitra.ac.in/naac-self-study-report/" target="_blank">NAAC Self Study Report & IQAC-AQAR </a></li> </br>
+
+
+              <li ><a href="https://mitra.ac.in/online-payment/" target="_blank">Know & Pay your College Fees & Fees Online
+               </a></li> </br>
+              </ul></div>
+                </div>
+              </div>-->
+                        <div class="col-md-6">
+                            <div class="boxed-feature mission">
+                                <h3 class="feature-title">Placement Statistics: 2021-22 BATCH</h3>
+                                <div class="textwidget">
+                                    <ul>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Cognizant</span><span style="float:right;font-size:14px;line-height:20px;">148</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Wipro</span><span style="float:right;font-size:14px;line-height:20px;">97</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">TCS</span><span style="float:right;font-size:14px;line-height:20px;">76</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Capgemini</span><span style="float:right;font-size:14px;line-height:20px;">57</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Infosys</span><span style="float:right;font-size:14px;line-height:20px;">53</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Accenture</span><span style="float:right;font-size:14px;line-height:20px;">35</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">IBM</span><span style="float:right;font-size:14px;line-height:20px;">29</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Dhoot Transmission </span><span style="float:right;font-size:14px;line-height:20px;">168</span></li>
+
+                                        <li><span style="float:left; font-size:14px; line-height:20px;">Career Labs Bangalore</span><span style="float:right;font-size:14px;line-height:20px;">21</span></li>
+
+
+                                        <br> <br>
+                                    </ul>
+
+                                    <br>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- .container -->
+            </div>
+        </div>
+        <!-- .fullwidth-block -->
+        <!---->
+
+        <div class="fullwidth-block">
+            <div class="container">
+                <h2 class="section-title">Our Top Recruiter</h2>
+
+                <div class="partners">
+                    <marquee class="logosize" direction="left" scrolldelay="150" height="200px">
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/1.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/2.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/3.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/4.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/5.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/6.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/7.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/8.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/9.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/10.jpg" alt="" class="placement-logo"></a>
+
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/11.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/12.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/13.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/14.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/15.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/16.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/17.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/18.jpg" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/19.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/20.png" alt="" class="placement-logo"></a>
+                        <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/campus/21.png" alt="" class="placement-logo"></a>
+
+
+                        <!--<a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/bitwise.png" alt=""></a>
+              <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/bosch.png" alt=""></a>
+              <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/bynry.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/capg.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/cogn.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/epic.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/excellon.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/hcl.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/indus.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/jd.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/karvi.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/kpit.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/localbook.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/lt.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/mahi.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/mphasis.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/syntel-1.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/tal.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/TCS_Logo1.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/tek.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/tri.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/vitusa.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/vw.png" alt=""></a>
+                <a href="#"><img src="dummy/logo/yardi.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/dummy/logo/zen.png" alt=""></a>-->
+                    </marquee>
+                </div>
+                <!-- .partners -->
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .fullwidth-block -->
+        <!--<div class="fullwidth-block">
+          <div class="container">
+            <h2 class="section-title">Our Top Recruiter</h2>
+
+            <div class="partners">
+                <marquee class="logosize" direction="left" scrolldelay="150" height="200px" >
+               <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/1.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/2.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/3.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/4.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/5.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/6.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/7.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/8.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/9.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/10.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/11.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/12.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/13.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/14.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/15.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/16.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/17.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/18.jpg" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/19.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/20.png" alt=""></a>
+                <a href="#"><img src="https://mitra.ac.in/assets/site/recruiter/21.png" alt=""></a>
+                            </marquee>
+            </div> 
+          </div> 
+        </div>-->
+        <!-- .fullwidth-block -->
+
+        <!-- ======= counter Section ======= -->
+        <section id="counter" class="counter">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">213</div>
+                            <div class="count-title">Faculty</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">54</div>
+                            <div class="count-title">PhD</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-digit">514</div>
+                            <div class="count-title">Placements</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count-area-content">
+                            <div class="count-student">3817</div>
+                            <div class="count-title">Students</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======= counter Section End ======= -->
+
+
+        <div class="fullwidth-block" data-bg-color="#f1f1f1">
+            <div class="container">
+                <h2 class="section-title">Our Departments</h2>
+
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="offer caption-top">
+                            <img src="https://mitra.ac.in/assets/site/dummy/pexels-photo-5584052.jpeg" alt="offer 1">
+                            <div class="caption">
+                                <a href="https://mitra.ac.in/civil">
+                                    <h3 class="offer-title text text-center">Civil Engineering</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-1.jpg" alt="offer 2">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/mechanical">
+                                            <h3 class="offer-title text text-center">Mechanical Engineering</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-wide.jpg" alt="offer 3">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/electronics-Telecomm">
+                                            <h3 class="offer-title text text-center">Electronics & Telecomm Engineering</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-wide-1.jpg" alt="offer 3">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/computer-Science">
+                                            <h3 class="offer-title text text-center">Computer Science Engineering</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-11.jpg" alt="offer 2">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/information-Technology">
+                                            <h3 class="offer-title text text-center">Information Technology</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-2.jpg" alt="offer 2">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/mca">
+                                            <h3 class="offer-title text text-center">MCA Department</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-3.jpg" alt="offer 2">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/mba">
+                                            <h3 class="offer-title text text-center">MBA Department</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="offer caption-bottom">
+                                    <img src="https://mitra.ac.in/assets/site/dummy/offer-4.jpg" alt="offer 2">
+                                    <div class="caption">
+                                        <a href="https://mitra.ac.in/first-Year">
+                                            <h3 class="offer-title text text-center">First Year Department</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .col-md-8 -->
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .offer-section -->
+
+        <div class="fullwidth-block" data-bg-color="#230000">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="	https://mitra.ac.in/uploads/main-media-pdf/All-Institute-level-awards-New-2016-2022.pdf">
+                  <i class="icon-man-structure"></i>
+                  <h3 class="feature-title">Our Achievement</h3>
+                                    </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="https://mitra.ac.in/site/view-page/womens-icc_98" target="_blank">
+                  <i class="fa fa-female"></i>
+                  <h3 class="feature-title" title="Internal Committee">Internal Committee (IC) </h3>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a href="https://mitra.ac.in/site/gallery">
+                  <i class="icon-camera"></i>
+                  <h3 class="feature-title">Photo Gallery</h3>
+                                    </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="feature"><a href="https://mitra.ac.in/site/video-gallery">
+                  <i class="icon-camera-2"></i>
+                  <h3 class="feature-title">Video Gallery</h3>
+                                    </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="https://mitra.ac.in/site/view-page/patent-cell_2">
+                  <i class="icon-document-person"></i>
+                  <h3 class="feature-title">IPR Cell</h3>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="https://mitra.ac.in/site/view-page/research-promotion-cell_3">
+                  <i class="icon-man-chart"></i>
+                  <h3 class="feature-title">RP Cell</h3>
+                                    </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="https://mitra.ac.in/site/view-page/ed-cell_4">
+                  <i class="icon-sunshine"></i>
+                  <h3 class="feature-title">ED Cell</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature">
+                            <a target="_blank" href="https://mitra.ac.in/site/view-page/prmitr-incubation-center_1">
+                  <i class="icon-mind-idea"></i>
+                  <h3 class="feature-title">Incubation Center</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .fullwidth-block -->
+
+
+
+        <div class="fullwidth-block">
+            <div class="container">
+                <h2 class="section-title">Institute Alumni</h2>
+                <div class="row news-list">
+                    <div class="col-md-6">
+                        <div class="news">
+                            <figure><img src="https://mitra.ac.in/assets/site/dummy/featured-image-1.jpg" alt=""></figure>
+                            <h2 class="entry-title">
+                                <p><b><a href="https://mitra.ac.in/site/alumni" target="_blank" rel="noopener">
+                  Institute Alumni Council</a></b> : <strong>Register Here </strong></p>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="">
+
+
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <!--<ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>-->
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+
+                                    <div class="item active">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/Alumni_Meet_at_Badnera.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/Alumni_Meet_at_Badnera1.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/Alumni_Meet_at_Badnera2.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC_0159_copy.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC_0159_copy1.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC_0159_copy2.jpg" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC00639.JPG" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC006391.JPG" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC006392.JPG" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC006393.JPG" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+                                    <div class="item ">
+                                        <center><img src="https://mitra.ac.in/uploads/alumni/DSC006394.JPG" alt="" style="max-width:562px">
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </center>
+
+                                    </div>
+
+
+
+
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                            </div>
+
+                        </div>
+                        <div class="news" style="margin-top: 15px;">
+                            <h2 class="entry-title"><b><a href="https://mitra.ac.in/site/alumni-gallery">Alumni Gallery</a></b></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+
+                <!---->
+
+
+
+
+                <!---->
+
+
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .latest-news-section -->
+
+        <div class="fullwidth-block designation" data-bg-color="#0f75bd">
+            <div class="container">
+                <div class="testimonial-slider">
+                    <ul class="slides">
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/bramhdev.png" alt="" style="width: 175px;">
+                  </cite>
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Bramhadeo Sawale</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Joint Director</i><br><b style="font-weight: 400;">CPRI</b></h6>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/Manoj-Mishra.png" alt="" style="width: 175px;"></cite>
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Manoj Mishra</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Lead Technicl Architect Phoenix Arizona</i><br><b style="font-weight: 400;">American Express</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/alok-mehta-1.png" alt="" style="width: 175px;"></cite>
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Alok Mehta</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>&nbsp;</i><br><b style="font-weight: 400;">Elimdelco</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/devendra.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Devendra Deshmukh</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>CEO Founder</i><br><b style="font-weight: 400;">E-Zest Solutions Ltd</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/girish.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Girish Kulkarni</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>General Manager </i><br><b style="font-weight: 400;">Samsung Electronics</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/agrawal.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Rajesh Agrawal</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Businessman </i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/jain.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Rajesh jain</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Enterpreneur </i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/kapde.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Rajesh Kapde</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Enterpreneur </i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/khandelwal.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Rajesh Khandewal</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Product Management Mobile Messaging Cloud </i><br><b style="font-weight: 400;">Synchronoss Technologies</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/dinesh.png" alt="" style="width: 175px;"></cite>
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Dinesh Aware</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Director IT Infrastucture Development Management </i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/jajoo.png" alt="" style="width: 175px;"></cite>
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Sandeep Jajoo</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Builder, Amravati</i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/mohini.png" alt="" style="width: 175px;"></cite>
+
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Monini Sardey</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>HOD College</i><br><b style="font-weight: 400;">AISSMS</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/narendra.png" alt="" style="width: 175px;"></cite>
+
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Naredra Kale</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>Sr. Principal Architect</i><br><b style="font-weight: 400;">IGATE</b></h6>
+                            </blockquote>
+                        </li>
+
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/daga.png" alt="" style="width: 175px;"></cite>
+
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Sandeep Daga</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>MD, Mumbai</i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <blockquote><cite><img src="https://mitra.ac.in/assets/site/dummy/atul-malviya.png" alt="" style="width: 175px;"></cite>
+
+
+                                <h4 style="margin: 0 0 0px;font-weight: 500;">Atul Malviya</h4>
+                                <h6 style="font-weight: 100;margin: 0 0 0px;">
+                                    <i>&nbsp;</i><br><b style="font-weight: 400;">&nbsp;</b></h6>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .fullwidth-block -->
+
+        <!-- end front -->
+
+
+        <div class="fullwidth-block">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.4311271567126!2d77.74998661424226!3d20.854666099076187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a54e170995cb%3A0xfed5bd6314ba3973!2sProf.Ram%20Meghe%20Institute%20of%20Technology%20%26%20Research!5e0!3m2!1sen!2sin!4v1583997183578!5m2!1sen!2sin"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </main>
+
+    <div class="site-footer">
+        <div class="widget-area">
+            <div class="container">
+                <div class="row">
+
+
+
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <div class="widget">
+                            <h2 class="faculty-title">Important Links</h2>
+                            <div class="textwidget">
+                                <ul class="footer-ul">
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;">
+                                            <a href="	https://mitra.ac.in/uploads/main-media-pdf/MANDATORY_DISCLOSURE_2023__Final.pdf" target="_blank">Mandatory Disclosure</a>
+                                        </p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://www.dtemaharashtra.gov.in/" target="_blank">Directorate of Technical Edu</a>&nbsp;//&nbsp;&nbsp;
+                                            <a href="https://mahadbtmahait.gov.in/" target="_blank">Minority Scholarship</a><span style="color: #f7b400;"><span style="color: #f7b400;">
+                                <a href="https://www.dte.org.in/scholarships/InformationPages/Adervertisement-SGS-2013-14.pdf"><br></a></span></span>
+                                        </p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="	https://mitra.ac.in/uploads/main-media-pdf/Fees_2023-24.pdf" target="_blank">
+                        <span style="line-height: 1.8;">Shikshan Shulka Samiti</span>
+                        // &nbsp; Fees</a> // <a href="	https://mitra.ac.in/uploads/main-media-pdf/Computation_of_fee_UG_PG_MBA_MCA.pdf" target="_blank"> &nbsp;&nbsp; &nbsp;FRA</a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="	https://mitra.ac.in/uploads/main-media-pdf/Anti_Ragging_Committee_20230206_0001.pdf" target="_blank">Prevention and Prohibition of Ragging</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://mitra.ac.in/uploads/main-media-pdf/Capitation_fee.pdf" target="_blank">Prohibition of Capitation Fee</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a target="_blank" href="https://mitra.ac.in/site/view-page/accreditation_6">Accreditation</a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;">
+                                            <a href="https://www.aicte-india.org/badvertisements.php" target="_blank">AICTE Notifications
+                    </a> &nbsp; &amp;&nbsp;
+                                            <a href="https://www.aicte-india.org" target="_blank">AICTE, New Delhi
+                    </a> &nbsp;//&nbsp;
+
+                                            <a href="https://mitra.ac.in/uploads/main-media-pdf/AICTE_LOA_EOAs(updated_2023).pdf" target="_blank">AICTE-EOAs </a>
+
+                                        </p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;">
+                                            <a href="https://www.sgbau.ac.in" target="_blank">SGB Amravati University</a> &nbsp;// <a href="https://www.sgbau.ac.in/Publications/GazetteNotifications.aspx/" target="_blank">
+                         University Notification &nbsp; Part-I</a></span> // <a href="https://www.sgbau.ac.in/Publications/Statutes.aspx" target="_blank">
+                         Part-II</a><a href="https://www.sgbau.ac.in" target="_blank" style="font-family: Arial, sans-serif; font-weight: bold;"><br></a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://mahadbtmahait.gov.in/" target="_blank">State Govt. Scholarship</a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://mitra.ac.in/admissions/academic" target="_blank">Academic Calendar</a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://mitra.ac.in/grievance-redressal/" target="_blank">Grievance Redressal</a></p>
+                                    </li>
+
+                                    <li class="border-line">
+                                        <p style="text-align: left;"><a href="https://mitra.ac.in/site/view-page/prevention-of-caste-based-discrimination-in-higher-education_92" target="_blank">Prevention of Caste Based Discrimination in Higher Education</a></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <div class="widget">
+                            <h2 class="faculty-title">Campus Buzz</h2>
+                            <div class="textwidget">
+                                <ul class="footer-ul">
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/site/view-page/news-current-affairs_8">News &amp; Current affairs</a></p>
+                                    </li>
+                                    <!--<li class="border-line"><p><a href="#" target="_blank">E Magazine</a></p></li>-->
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/site/alumni">Alumni Login</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/site/view-page/department-events_9" target="_blank">Events</a>&nbsp;</p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/uploads/main-media-pdf/All-Institute-level-awards-New-2016-2022.pdf" target="_blank">Achievements</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/site/campus-facility">Campus Facility</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/site/gallery">Photo Gallery</a></p>
+                                    </li>
+                                    <li class="border-line">
+                                        <p><a href="https://mitra.ac.in/uploads/main-media-pdf/Magazine2023.pdf" target="_blank">Annual Magazine</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="widget widget_text" style="margin-top:29px;">
+                                <div class="widget-head">
+                                    <h2 class="faculty-title"><span>Services &#038; Resources</span></h2>
+                                </div>
+                                <div class="textwidget">
+                                    <ul class="footer-ul">
+                                        <li class="border-line">
+                                            <p><a href="https://mitra.ac.in/uploads/main-media-pdf/citybus_new.pdf" target="_blank"> Bus Schedule</a></p>
+                                        </li>
+                                        <li class="border-line">
+                                            <p><a href="https://accounts.google.com/AddSession?hd=mitra.ac.in&sacu=1#identifier" target="_blank">Webmail</a></p>
+                                        </li>
+                                        <li class="border-line">
+                                            <p><a href="https://mitra.ac.in/site/view-page/college-feedback_10" target="_blank">Feedback</a></p>
+                                        </li>
+                                        <li class="border-line">
+                                            <p><a href="https://mitra.ac.in/site/view-page/recruitment_97" target="_blank">Recruitment</a></p>
+                                        </li>
+                                    </ul>
+                                    <br/><br/>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="widget">
+                            <h2 class="faculty-title">Contact</h2>
+                            <h3 class="footer-title">Prof Ram Meghe Institute of Technology &amp; Research</h3>
+                            <p><strong>Anjangaon Bari Road,</strong><br><strong>Badnera-Amravati 444 701 (M.S.) </strong><br><strong>Phone No.: 0721-2681246 Ext. -202 </strong><br><strong>Fax: 0721-2681337</strong><br><strong>Email: 
+                     <a href="mailto:principal@mitra.ac.in">principal@mitra.ac.in</a></span></strong></p>
+
+                            <p><a href="https://mitra.ac.in/site/contact-us" class="btn btn-primary btn-lg white">Contact Us</a></p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="container">
+                <nav class="footer-navigation">
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <a href="#">Admissions</a>
+                    <a href="#">Departments</a>
+                    <a href="#">Training & Placement</a>
+                    <a href="#">Library</a>
+                    <a href="#">Forum</a>
+                    <a target="_blank" href="https://www.google.co.in/maps/uv?hl=en&pb=!1s0x3bd6a54e170995cb%3A0xfed5bd6314ba3973!3m1!7e115!4s%2Fmaps%2Fplace%2Fprof.ram%2Bmeghe%2Binstitute%2Bof%2Btechnology%2B%2526%2Bresearch%2Bamravati%2C%2Bmaharashtra%2F%4020.854665%2C77.7522172%2C3a%2C75y%2C46.85h%2C90t%2Fdata%3D*213m4*211e1*213m2*211s6SrxWbvO2B4AAAQvxXaWww*212e0*214m2*213m1*211s0x3bd6a54e170995cb%3A0xfed5bd6314ba3973!15sCgIgAQ&imagekey=!1e2!2sdb4DbVJQ5ikAAAQvxXckZw&sa=X&ved=0ahUKEwjVlrjXxLXVAhXJpo8KHb1cARsQoB8I5gQwZA&activetab=panorama">Virtual Tour</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <div class="social-links">
+                    <a href="#" title="FaceBook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="colophon">
+                    <p class="copyrights-text">&copy; Copyright 1983-<span id="demo"></span> Prof.Ram Meghe Institute of Technology & Research, Badnera, Amravati, India. All Rights Reserved.<br>Designed &amp; MAintained By: <a href="https://www.primathink.com/" title="PrimaThink Technologies Pvt. Ltd."
+                            target="_blank">PrimaThink Technologies PVT. LTD.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://mitra.ac.in/assets/site/js/jquery-1.11.1.min.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+<script src="https://mitra.ac.in/assets/site/js/plugins.js"></script>
+<script src="https://mitra.ac.in/assets/site/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://mitra.ac.in/assets/site/gallery/js/glightbox.min.js"></script>
+<script src="https://mitra.ac.in/assets/site/gallery/js/index.js"></script>
+<!--<script>
+$(window).load(function() {
+  $(".pageloader").fadeOut("slow");
+}); 
+</script>-->
+<!--#menu7, #menu6, #menu8-->
+
+
+<div id="mySidepanel1" class="sidepanel1">
+    <a href="javascript:void(0)" class="closebtn1" onClick="closeNav1()">×</a>
+    <a href="https://mitra.ac.in/admissions/courses-offered">Courses Offered</a>
+    <a href="https://mitra.ac.in/admissions/be">B.Tech Admission</a>
+    <a href="https://mitra.ac.in/admissions/contact">Contact for Admission</a>
+</div>
+
+
+<button class="openbtn1" onClick="openNav1()"> Admission </button>
+
+
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">×</a>
+    <a href="	https://mitra.ac.in/uploads/main-media-pdf/Placement_2022_2023.pdf">List of Students Placed in 2022-23</a>
+</div>
+<button class="openbtn" onClick="openNav()">List of Students Placed in 2022-23</button>
+
+<div class="footer-fixed-bar">
+    <marquee behavior="alternate" direction="right" onmouseover="stop()" onmouseout="start()"><a href="#" target="_blank"> <span>Hearty Congratulations for A+ Grade Awarded by NAAC with CGPA 3.43 to </span> V.Y.W.S Prof.Ram Meghe Institute of Technology & Research Badnera - Amravati 
+            </marquee>
+ </div>
+
+<script>
+
+$(function () {
+    function isScrolledIntoView($elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    function count($this) {
+        var current = parseInt($this.html(), 10);
+        if (isScrolledIntoView($this) && !$this.data("isCounting") && current < $this.data('count')) {
+            $this.html(++current);
+            $this.data("isCounting", true);
+            setTimeout(function () {
+                $this.data("isCounting", false);
+                count($this);
+            }, 0.1);
+        }
+    }
+
+    $(".count-digit").each(function () {
+        $(this).data('count', parseInt($(this).html(), 0.1));
+        $(this).html('0');
+        $(this).data("isCounting", false);
+    });
+    
+     $(".count-student").each(function () {
+        $(this).data('count', parseInt($(this).html(), 0.1));
+        $(this).html('2500');
+        $(this).data("isCounting", false);
+    });
+
+    function startCount() {
+        $(".count-digit").each(function () {
+            count($(this));
+        });
+        $(".count-student").each(function () {
+            count($(this));
+        });
+    };
+
+    $(window).scroll(function () {
+        startCount();
+    });
+
+    startCount();
+});
+
+// Expand text
+$(".act").click(function() {
+  var val = $(this).text();
+  if (val == "More") {
+    $("#expand-text").css('height', '505px');
+    $(this).text("less");
+  } else {
+    $("#expand-text").css('height', '200');
+    $(this).text("More");
+  }
+  return false;
+});
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+
+// ----------------------------------
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+
+function openNav1() {
+  document.getElementById("mySidepanel1").style.width = "300px";
+}
+
+function closeNav1() {
+document.getElementById("mySidepanel1").style.width = "0";
+}
+</script> 
+  </body>
+
+</html>

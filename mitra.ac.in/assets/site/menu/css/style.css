@@ -1,0 +1,263 @@
+/* 
+*/
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu #f7b400
+––––––––––––––––––––––––––––––––– ––––––––––––––––– */
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto;
+    background: #00539f;
+}
+
+.menu-mobile {
+    display: none;
+    padding: 20px;
+}
+
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 0.4em 0.8em;
+    background: #fff;
+    color: #333;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.menu>ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+}
+
+.menu>ul:before,
+.menu>ul:after {
+    content: "";
+    display: table;
+}
+
+.menu>ul:after {
+    clear: both;
+}
+
+.menu>ul>li {
+    float: left;
+    background: #00539f;
+    padding: 0;
+    margin: 0;
+}
+
+.menu>ul>li a {
+    text-decoration: none;
+    padding: 0.5em 0.7em;
+    display: block;
+    font-family: roboto condensed;
+    font-size: 18px;
+    color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.menu>ul>li:hover {
+    background: #0364bd;
+}
+
+.menu>ul>li>ul {
+    display: none;
+    width: 100%;
+    background: rgba(0, 83, 159, 0.9);
+    padding: 15px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu>ul>li>ul:before,
+.menu>ul>li>ul:after {
+    content: "";
+    display: table;
+}
+
+.menu>ul>li>ul:after {
+    clear: both;
+}
+
+.menu>ul>li>ul>li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 25%;
+    background: none;
+    float: left;
+}
+
+.menu>ul>li>ul>li a {
+    color: #f7b400;
+    padding: 0.1em 0;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #f7b400;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu>ul>li>ul>li>ul {
+    display: block;
+    padding: 0;
+    margin: 10px 0 15px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu>ul>li>ul>li>ul:before,
+.menu>ul>li>ul>li>ul:after {
+    content: "";
+    display: table;
+}
+
+.menu>ul>li>ul>li>ul:after {
+    clear: both;
+}
+
+.menu>ul>li>ul>li>ul>li {
+    float: left;
+    width: 100%;
+    padding: 1px 0;
+    margin: 0;
+    font-size: .8em;
+}
+
+.menu>ul>li>ul>li>ul>li a {
+    border: 0;
+    font-weight: normal;
+    color: #fff;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.menu>ul>li>ul>li>ul>li a:hover {
+    margin-left: 3px;
+}
+
+.menu>ul>li>ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+}
+
+.menu>ul>li>ul.normal-sub>li {
+    width: 100%;
+}
+
+.menu>ul>li>ul.normal-sub>li a {
+    font-weight: normal;
+    color: #fff;
+    border-bottom: 0px solid #f7b400;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.menu>ul>li>ul.normal-sub>li a:hover {
+    margin-left: 3px;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 959px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile {
+        display: block;
+        color: #fff;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu>ul {
+        display: none;
+    }
+    .menu>ul>li {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .menu>ul>li a {
+        padding: 0.8em 1em;
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #999;
+        font-size: 18px;
+    }
+    .menu>ul>li>ul {
+        position: relative;
+    }
+    .menu>ul>li>ul.normal-sub {
+        width: 100%;
+    }
+    .menu>ul>li>ul>li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu>ul>li>ul>li:first-child {
+        margin: 0;
+    }
+    .menu>ul>li>ul>li>ul {
+        position: relative;
+    }
+    .menu>ul>li>ul>li>ul>li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+    }
+}
